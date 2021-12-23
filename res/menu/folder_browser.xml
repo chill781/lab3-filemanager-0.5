@@ -42,15 +42,20 @@
         android:orderInCategory="0"
         android:showAsAction="always"
         android:title="@string/up"
-        android:visible="true" />
+<<<<<<< HEAD
+        android:visible="true"/>
     
+=======
+        android:visible="true"/>
+
+>>>>>>> b2
     <item
         android:id="@+id/menu_refresh"
-        android:icon="@drawable/ic_refresh"
+        android:icon="@android:drawable/ic_popup_sync"
         android:orderInCategory="1"
         android:showAsAction="ifRoom"
         android:title="@string/refresh"
-        android:visible="true"/>
+        android:visible="true" />
     
     <item
         android:id="@+id/menu_paste"
